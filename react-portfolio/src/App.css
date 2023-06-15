@@ -6,6 +6,11 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+/* html,
+body {
+  height: 100%;
+} */
+
 header {
   background-image: linear-gradient(to right, #3b3b54, #b7b7cc);
   color: white;
@@ -28,4 +33,34 @@ a {
   color: white;
   font-size: 23px;
   text-decoration: none;
+}
+
+.about-me {
+  padding-top: 250px;
+  margin-left: 50px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-header {
+  margin-bottom: 25px;
+  margin-left: 100px;
+}
+
+.about-me-paragraph {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 250px;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  padding: 0 100px;
 }
