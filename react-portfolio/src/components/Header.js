@@ -1,4 +1,5 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 function Header() {
   return (
@@ -6,12 +7,7 @@ function Header() {
       <div className="my-name">
         <h1>Frank Olmsted</h1>
       </div>
-      <div className="links">
-        <a href="#">About Me</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-        <a href="#">Resume</a>
-      </div>
+      <Navigation />
     </header>
   );
 }
