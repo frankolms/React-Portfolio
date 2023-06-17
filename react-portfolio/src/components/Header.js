@@ -1,13 +1,16 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-function Header() {
+function Header(props) {
   return (
     <header>
       <div className="my-name">
         <h1>Frank Olmsted</h1>
       </div>
-      <Navigation />
+      <Navigation
+        renderedPage={props.renderedPage}
+        handlePageRender={props.handlePageRender}
+      />
     </header>
   );
 }

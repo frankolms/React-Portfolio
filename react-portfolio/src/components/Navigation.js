@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Navigation() {
+function Navigation({ renderedPage, handlePageRender }) {
   return (
     <nav className="links">
-      <a href="#">About Me</a>
+      <a href="#about-me" onClick={() => handlePageRender("AboutMe")}>
+        About Me
+      </a>
       <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
+      <a href="#contact" onClick={() => handlePageRender("Contact")}>
+        Contact
+      </a>
       <a href="#">Resume</a>
     </nav>
   );
