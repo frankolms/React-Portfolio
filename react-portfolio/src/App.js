@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "./components/Header";
 import AboutMe from "./components/pages/AboutMe";
 import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
+import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,6 +17,14 @@ function App() {
 
     if (renderedPage === "Contact") {
       return <Contact />;
+    }
+
+    if (renderedPage === "Portfolio") {
+      return <Portfolio />;
+    }
+
+    if (renderedPage === "Resume") {
+      return <Resume />;
     }
   };
 
