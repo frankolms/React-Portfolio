@@ -25,7 +25,7 @@ function Project(props) {
     //   </Card.Body>
     // </Card>
 
-    <div className="container">
+    <div className="row row-cols-2 row-cols-md-2 g-4">
       <div className="col-sm-6">
         <div className="card" style={{ width: "18rem" }}>
           <img
