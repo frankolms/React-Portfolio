@@ -6,6 +6,7 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [renderedPage, setRenderedPage] = useState("AboutMe");

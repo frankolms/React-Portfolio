@@ -92,3 +92,23 @@ footer {
 .footer-item {
   padding: 0 100px;
 }
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+} */
+
+.card-style {
+  width: 18rem;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.project-img {
+  width: 50%;
+}
