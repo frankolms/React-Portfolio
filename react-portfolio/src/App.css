@@ -23,7 +23,7 @@ header {
   display: flex;
 }
 
-a {
+.section-links {
   padding: 0 30px;
   color: white;
   font-size: 23px;
@@ -98,15 +98,16 @@ footer {
   flex-direction: row;
 } */
 
-.card-style {
+/* .card-style {
   width: 18rem;
+} */
+
+.card {
+  flex-direction: row;
 }
 
 .project-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 50%;
+  margin-left: 10px;
 }
 
 .project-img {

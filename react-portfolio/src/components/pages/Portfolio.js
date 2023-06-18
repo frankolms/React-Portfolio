@@ -19,6 +19,14 @@ function Portfolio() {
         "An English companion application to use alongside The Japanese Castle Association's guide book.",
       altText: "Map of Japan with website description",
     },
+    {
+      title: "Weather Dashboard",
+      website: "https://frankolms.github.io/Weather-Dashboard/",
+      image: "./images/Screenshot (37).png",
+      description:
+        "A simple weather dashboard that will show you the current weather and the five day forecast of any city.",
+      altText: "Weather Dashboard screenshot",
+    },
   ];
 
   return (
