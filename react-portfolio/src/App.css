@@ -106,8 +106,14 @@ footer {
   flex-direction: row;
 }
 
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .project-card {
   margin-left: 10px;
+  width: 45vw;
 }
 
 .project-img {

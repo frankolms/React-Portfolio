@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../Project";
+import { Container, Row } from "react-bootstrap";
 
 function Portfolio() {
   const projects = [
@@ -30,11 +31,13 @@ function Portfolio() {
   ];
 
   return (
-    <div>
-      {projects.map((project) => (
-        <Project data={project} />
-      ))}
-    </div>
+    <Container>
+      <Row>
+        {projects.map((project) => (
+          <Project data={project} />
+        ))}
+      </Row>
+    </Container>
   );
 }
 

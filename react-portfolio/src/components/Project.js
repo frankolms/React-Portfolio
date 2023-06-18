@@ -1,6 +1,6 @@
 import React from "react";
 // import Card from "react-bootstrap/Card";
-// import Col from "react-bootstrap/Col";
+import Col from "react-bootstrap/Col";
 // import Row from "react-bootstrap/Row";
 // import Button from "react-bootstrap;";
 
@@ -24,9 +24,8 @@ function Project(props) {
     //     <Card.Text>{props.data.description}</Card.Text>
     //   </Card.Body>
     // </Card>
-
-    <div className="row row-cols-2 row-cols-md-2 g-4">
-      <div className="col-sm-6">
+    <Col xs={12} md={6}>
+      <div>
         <div className="card" style={{ width: "18rem" }}>
           <img
             src={props.data.image}
@@ -42,7 +41,7 @@ function Project(props) {
           </div>
         </div>
       </div>
-    </div>
+    </Col>
   );
 }
 
