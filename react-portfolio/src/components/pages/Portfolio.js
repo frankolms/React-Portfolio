@@ -28,6 +28,29 @@ function Portfolio() {
         "A simple weather dashboard that will show you the current weather and the five day forecast of any city.",
       altText: "Weather Dashboard screenshot",
     },
+    {
+      title: "Daily Planner",
+      website: "https://frankolms.github.io/Daily-Planner/",
+      image: "./images/Screenshot (35).png",
+      description: "Plan out your 9-5 workday in real time!",
+      altText: "Daily Planner screenshot",
+    },
+    {
+      title: "Password Generator",
+      website: "https://frankolms.github.io/Password-Generator/",
+      image: "./images/Screenshot (32).png",
+      description:
+        "A password generator that lets you choose what types of characters are included in your password!",
+      altText: "Password Generator screenshot",
+    },
+    {
+      title: "Code Quiz",
+      website: "https://frankolms.github.io/Code-Quiz/",
+      image: "./images/Screenshot (34).png",
+      description:
+        "A short programming quiz. Test your beginner JavaScript knowledge!",
+      altText: "Code Quiz screenshot",
+    },
   ];
 
   return (
