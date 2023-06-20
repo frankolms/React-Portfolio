@@ -30,6 +30,18 @@ header {
   text-decoration: none;
 }
 
+.section-links:hover {
+  text-decoration: underline;
+}
+
+.rendered-page {
+  padding: 0 30px;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 .about-me {
   padding-top: 250px;
   margin-left: 50px;
