@@ -4,6 +4,10 @@ function AboutMe() {
   return (
     <div className="about-me">
       <h2 className="about-me-header">About Me</h2>
+      <img
+        src="./images/0DE320E1-95E4-4892-9C0F-EFFBEFC27936 (2).JPG"
+        className="photo"
+      ></img>
       <p className="about-me-paragraph">
         My name is Frank Olmsted and I am an aspiring web developer! I graduated
         from the UCONN Coding Bootcamp in July of 2023 and am actively looking
