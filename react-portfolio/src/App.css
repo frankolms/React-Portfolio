@@ -103,6 +103,12 @@ footer {
 
 .footer-item {
   padding: 0 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-item:hover {
+  text-decoration: underline;
 }
 
 .card {
