@@ -11,6 +11,7 @@ function Portfolio() {
       description:
         "A quick and easy to use pokedex with links to wikipedia for each pokemon for more information.",
       altText: "PokeWiki Logo",
+      githubRepo: "https://github.com/frankolms/Etsy-Pokedex",
     },
     {
       title: "100 Famous Castles",
@@ -19,6 +20,7 @@ function Portfolio() {
       description:
         "An English companion application to use alongside The Japanese Castle Association's guide book.",
       altText: "Map of Japan with website description",
+      githubRepo: "https://github.com/frankolms/100-famous-castles",
     },
     {
       title: "Weather Dashboard",
@@ -27,6 +29,7 @@ function Portfolio() {
       description:
         "A simple weather dashboard that will show you the current weather and the five day forecast of any city.",
       altText: "Weather Dashboard screenshot",
+      githubRepo: "https://github.com/frankolms/Weather-Dashboard",
     },
     {
       title: "Daily Planner",
@@ -34,6 +37,7 @@ function Portfolio() {
       image: "./images/Screenshot (35).png",
       description: "Plan out your 9-5 workday in real time!",
       altText: "Daily Planner screenshot",
+      githubRepo: "https://github.com/frankolms/Daily-Planner",
     },
     {
       title: "Password Generator",
@@ -42,6 +46,7 @@ function Portfolio() {
       description:
         "A password generator that lets you choose what types of characters are included in your password!",
       altText: "Password Generator screenshot",
+      githubRepo: "https://github.com/frankolms/Password-Generator",
     },
     {
       title: "Code Quiz",
@@ -50,6 +55,7 @@ function Portfolio() {
       description:
         "A short programming quiz. Test your beginner JavaScript knowledge!",
       altText: "Code Quiz screenshot",
+      githubRepo: "https://github.com/frankolms/Code-Quiz",
     },
   ];
 

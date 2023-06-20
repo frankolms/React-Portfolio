@@ -75,7 +75,11 @@ function Contact() {
           onMouseOut={handleFieldRequiredMessage}
           type="text"
         ></textarea>
-        <button type="button" onClick={handleFormSend}>
+        <button
+          type="button"
+          className="btn btn-secondary"
+          onClick={handleFormSend}
+        >
           Send
         </button>
         <p> {invalidEmail}</p>

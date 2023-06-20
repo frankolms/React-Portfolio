@@ -131,6 +131,10 @@ footer {
   width: 45vw;
 }
 
+.repo-link {
+  margin-left: 210px;
+}
+
 .project-img {
   width: 50%;
 }

@@ -21,9 +21,16 @@ function Project(props) {
             <a
               href={props.data.website}
               target="_blank"
-              className="btn btn-primary"
+              className="btn btn-secondary"
             >
               Check it out!
+            </a>
+            <a
+              href={props.data.githubRepo}
+              className="btn btn-secondary repo-link"
+              target="_blank"
+            >
+              GitHub Repo
             </a>
           </div>
         </div>
