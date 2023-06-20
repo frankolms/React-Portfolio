@@ -93,15 +93,6 @@ footer {
   padding: 0 100px;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .card-style {
-  width: 18rem;
-} */
-
 .card {
   flex-direction: row;
 }
@@ -118,4 +109,26 @@ footer {
 
 .project-img {
   width: 50%;
+}
+
+.resume {
+  min-height: 94vh;
+}
+
+.resume-header {
+  margin: 50px 0 20px 50px;
+}
+
+.resume-items {
+  margin: 40px 0 0 100px;
+}
+
+.resume-download {
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+}
+
+.resume-download:hover {
+  color: blue;
 }
