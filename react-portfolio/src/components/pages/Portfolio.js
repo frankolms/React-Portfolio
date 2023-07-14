@@ -23,6 +23,14 @@ function Portfolio() {
       githubRepo: "https://github.com/frankolms/100-famous-castles",
     },
     {
+      title: "Offres D'Art",
+      website: "https://nameless-springs-87426-ab7084b2cd1d.herokuapp.com/",
+      image: "./images/project 3 logo.PNG",
+      description: "Host and sell your artwork!",
+      altText: "Offres D'Art logo",
+      githubRepo: "https://github.com/Cashew1337/Art-Dealer",
+    },
+    {
       title: "Weather Dashboard",
       website: "https://frankolms.github.io/Weather-Dashboard/",
       image: "./images/Screenshot (37).png",
@@ -47,15 +55,6 @@ function Portfolio() {
         "A password generator that lets you choose what types of characters are included in your password!",
       altText: "Password Generator screenshot",
       githubRepo: "https://github.com/frankolms/Password-Generator",
-    },
-    {
-      title: "Code Quiz",
-      website: "https://frankolms.github.io/Code-Quiz/",
-      image: "./images/Screenshot (34).png",
-      description:
-        "A short programming quiz. Test your beginner JavaScript knowledge!",
-      altText: "Code Quiz screenshot",
-      githubRepo: "https://github.com/frankolms/Code-Quiz",
     },
   ];
 
